@@ -1,0 +1,30 @@
+{
+  "name": "3dscanbooth",
+  "version": "1.0.0",
+  "description": "3d scanning booth ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgrnbrg/3DScanBooth.git"
+  },
+  "keywords": [
+    "3d",
+    "scanning",
+    "photogrammetry",
+    "obj"
+  ],
+  "author": "kyle greenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgrnbrg/3DScanBooth/issues"
+  },
+  "homepage": "https://github.com/kgrnbrg/3DScanBooth#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.2"
+  }
+}
