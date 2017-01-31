@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/kgrnbrg/3DScanBooth#readme",
   "dependencies": {
+    "ejs": "^2.5.5",
     "express": "^4.14.1",
+    "http": "0.0.0",
     "socket.io": "^1.7.2"
   }
 }
