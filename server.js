@@ -87,7 +87,8 @@ function readModelDir(dirPath, listObject){
         if(err){
             console.log('There was a problem reading the directory ' + err);
         } else {
-            console.log(files);
+            //Dont log the files list - useful for debugging
+            //console.log(files);
 
             listObject = files;
         }
