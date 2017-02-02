@@ -38,10 +38,13 @@ const fs = require('fs');
 //Array for storing the files
 let modelList = [];
 
+//Path for model library
+const modelPath = '/public/assets/models/';
+
 //Set routine check for models every second
 setInterval(()=>{
     //Read the model library
-    readModelDir("/public/assets/models/", modelList);
+    readModelDir(modelPath, modelList);
 }, 1000);
 
 //////////////////////
